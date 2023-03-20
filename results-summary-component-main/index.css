@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .principal{
     position: relative;
@@ -174,4 +179,8 @@ button{
     border-radius: 30px!important;
     background-color:hsl(224, 30%, 27%);
     color: white;
+}
+
+button:hover{
+    background:radial-gradient(#2D2AE8,#7856FF ); 
 }
